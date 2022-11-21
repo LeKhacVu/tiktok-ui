@@ -96,3 +96,11 @@
 .actions {
     display: flex;
 }
+
+.more-btn {
+    font-size: 2rem;
+    // margin-left: 28px;
+    padding: 4px 8px 4px 28px;
+    background-color: transparent;
+    cursor: pointer;
+}
