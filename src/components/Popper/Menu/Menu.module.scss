@@ -7,6 +7,10 @@
     padding-bottom: 8px;
 }
 
+.menu-body {
+    overflow-y: auto;
+}
+
 // Menu items
 
 .menu-item {
@@ -29,6 +33,7 @@
 // Header
 .header {
     position: relative;
+    flex-shrink: 0;
     height: 50px;
     margin-top: -8px;
 }
@@ -45,5 +50,5 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-weight: 500;
+    // font-weight: 500;
 }
